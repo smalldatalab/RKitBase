@@ -1,0 +1,6 @@
+framework module sdl_rkx {
+  umbrella header "sdl-rkx-umbrella.h"
+
+  export *
+  module * { export * }
+}

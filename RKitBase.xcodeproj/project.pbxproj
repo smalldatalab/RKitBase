@@ -14,6 +14,27 @@
 		2872AB3C1D661A3400D624C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2872AB3A1D661A3400D624C6 /* LaunchScreen.storyboard */; };
 		2872AB471D661A3500D624C6 /* RKitBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB461D661A3500D624C6 /* RKitBaseTests.swift */; };
 		2872AB521D661A3500D624C6 /* RKitBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB511D661A3500D624C6 /* RKitBaseUITests.swift */; };
+		2872AB731D661BD700D624C6 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB5F1D661BD700D624C6 /* ActivityViewController.swift */; };
+		2872AB741D661BD700D624C6 /* AnimatableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB601D661BD700D624C6 /* AnimatableChart.swift */; };
+		2872AB751D661BD700D624C6 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB611D661BD700D624C6 /* ConsentDocument.swift */; };
+		2872AB761D661BD700D624C6 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB621D661BD700D624C6 /* DashboardTableViewController.swift */; };
+		2872AB771D661BD700D624C6 /* DiscreteGraphDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB631D661BD700D624C6 /* DiscreteGraphDataSource.swift */; };
+		2872AB781D661BD700D624C6 /* HealthClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB641D661BD700D624C6 /* HealthClientType.swift */; };
+		2872AB791D661BD700D624C6 /* HealthDataStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB651D661BD700D624C6 /* HealthDataStep.swift */; };
+		2872AB7A1D661BD700D624C6 /* HealthDataStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB661D661BD700D624C6 /* HealthDataStepViewController.swift */; };
+		2872AB7B1D661BD700D624C6 /* HKHealthStore+Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB671D661BD700D624C6 /* HKHealthStore+Queries.swift */; };
+		2872AB7C1D661BD700D624C6 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB681D661BD700D624C6 /* IntroductionViewController.swift */; };
+		2872AB7D1D661BD700D624C6 /* LineGraphDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB691D661BD700D624C6 /* LineGraphDataSource.swift */; };
+		2872AB7E1D661BD700D624C6 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6A1D661BD700D624C6 /* OnboardingViewController.swift */; };
+		2872AB7F1D661BD700D624C6 /* PieChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6B1D661BD700D624C6 /* PieChartDataSource.swift */; };
+		2872AB801D661BD700D624C6 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6C1D661BD700D624C6 /* ProfileHeaderView.swift */; };
+		2872AB811D661BD700D624C6 /* ProfileStaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6D1D661BD700D624C6 /* ProfileStaticTableViewCell.swift */; };
+		2872AB821D661BD700D624C6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6E1D661BD700D624C6 /* ProfileViewController.swift */; };
+		2872AB831D661BD700D624C6 /* ResearchContainerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6F1D661BD700D624C6 /* ResearchContainerSegue.swift */; };
+		2872AB841D661BD700D624C6 /* ResearchContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB701D661BD700D624C6 /* ResearchContainerViewController.swift */; };
+		2872AB851D661BD700D624C6 /* StudyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB711D661BD700D624C6 /* StudyTasks.swift */; };
+		2872AB861D661BD700D624C6 /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB721D661BD700D624C6 /* WithdrawViewController.swift */; };
+		FF729420507D3069F610CF67 /* Pods_RKitBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2856A38F18E8BE294162EEB7 /* Pods_RKitBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2856A38F18E8BE294162EEB7 /* Pods_RKitBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKitBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872AB2E1D661A3400D624C6 /* RKitBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKitBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872AB311D661A3400D624C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2872AB331D661A3400D624C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,28 @@
 		2872AB4D1D661A3500D624C6 /* RKitBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKitBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872AB511D661A3500D624C6 /* RKitBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKitBaseUITests.swift; sourceTree = "<group>"; };
 		2872AB531D661A3500D624C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2872AB5F1D661BD700D624C6 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityViewController.swift; path = RKitBase/ActivityViewController.swift; sourceTree = "<group>"; };
+		2872AB601D661BD700D624C6 /* AnimatableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatableChart.swift; path = RKitBase/AnimatableChart.swift; sourceTree = "<group>"; };
+		2872AB611D661BD700D624C6 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentDocument.swift; path = RKitBase/ConsentDocument.swift; sourceTree = "<group>"; };
+		2872AB621D661BD700D624C6 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardTableViewController.swift; path = RKitBase/DashboardTableViewController.swift; sourceTree = "<group>"; };
+		2872AB631D661BD700D624C6 /* DiscreteGraphDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscreteGraphDataSource.swift; path = RKitBase/DiscreteGraphDataSource.swift; sourceTree = "<group>"; };
+		2872AB641D661BD700D624C6 /* HealthClientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthClientType.swift; path = RKitBase/HealthClientType.swift; sourceTree = "<group>"; };
+		2872AB651D661BD700D624C6 /* HealthDataStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthDataStep.swift; path = RKitBase/HealthDataStep.swift; sourceTree = "<group>"; };
+		2872AB661D661BD700D624C6 /* HealthDataStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthDataStepViewController.swift; path = RKitBase/HealthDataStepViewController.swift; sourceTree = "<group>"; };
+		2872AB671D661BD700D624C6 /* HKHealthStore+Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HKHealthStore+Queries.swift"; path = "RKitBase/HKHealthStore+Queries.swift"; sourceTree = "<group>"; };
+		2872AB681D661BD700D624C6 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroductionViewController.swift; path = RKitBase/IntroductionViewController.swift; sourceTree = "<group>"; };
+		2872AB691D661BD700D624C6 /* LineGraphDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineGraphDataSource.swift; path = RKitBase/LineGraphDataSource.swift; sourceTree = "<group>"; };
+		2872AB6A1D661BD700D624C6 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingViewController.swift; path = RKitBase/OnboardingViewController.swift; sourceTree = "<group>"; };
+		2872AB6B1D661BD700D624C6 /* PieChartDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartDataSource.swift; path = RKitBase/PieChartDataSource.swift; sourceTree = "<group>"; };
+		2872AB6C1D661BD700D624C6 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileHeaderView.swift; path = RKitBase/ProfileHeaderView.swift; sourceTree = "<group>"; };
+		2872AB6D1D661BD700D624C6 /* ProfileStaticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileStaticTableViewCell.swift; path = RKitBase/ProfileStaticTableViewCell.swift; sourceTree = "<group>"; };
+		2872AB6E1D661BD700D624C6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = RKitBase/ProfileViewController.swift; sourceTree = "<group>"; };
+		2872AB6F1D661BD700D624C6 /* ResearchContainerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchContainerSegue.swift; path = RKitBase/ResearchContainerSegue.swift; sourceTree = "<group>"; };
+		2872AB701D661BD700D624C6 /* ResearchContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchContainerViewController.swift; path = RKitBase/ResearchContainerViewController.swift; sourceTree = "<group>"; };
+		2872AB711D661BD700D624C6 /* StudyTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudyTasks.swift; path = RKitBase/StudyTasks.swift; sourceTree = "<group>"; };
+		2872AB721D661BD700D624C6 /* WithdrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WithdrawViewController.swift; path = RKitBase/WithdrawViewController.swift; sourceTree = "<group>"; };
+		B5D2449BB460068D2EC7AED7 /* Pods-RKitBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RKitBase/Pods-RKitBase.release.xcconfig"; sourceTree = "<group>"; };
+		E90B5B78B0CBE46440B870E4 /* Pods-RKitBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RKitBase/Pods-RKitBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF729420507D3069F610CF67 /* Pods_RKitBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +122,32 @@
 		2872AB251D661A3400D624C6 = {
 			isa = PBXGroup;
 			children = (
+				2872AB5F1D661BD700D624C6 /* ActivityViewController.swift */,
+				2872AB601D661BD700D624C6 /* AnimatableChart.swift */,
+				2872AB611D661BD700D624C6 /* ConsentDocument.swift */,
+				2872AB621D661BD700D624C6 /* DashboardTableViewController.swift */,
+				2872AB631D661BD700D624C6 /* DiscreteGraphDataSource.swift */,
+				2872AB641D661BD700D624C6 /* HealthClientType.swift */,
+				2872AB651D661BD700D624C6 /* HealthDataStep.swift */,
+				2872AB661D661BD700D624C6 /* HealthDataStepViewController.swift */,
+				2872AB671D661BD700D624C6 /* HKHealthStore+Queries.swift */,
+				2872AB681D661BD700D624C6 /* IntroductionViewController.swift */,
+				2872AB691D661BD700D624C6 /* LineGraphDataSource.swift */,
+				2872AB6A1D661BD700D624C6 /* OnboardingViewController.swift */,
+				2872AB6B1D661BD700D624C6 /* PieChartDataSource.swift */,
+				2872AB6C1D661BD700D624C6 /* ProfileHeaderView.swift */,
+				2872AB6D1D661BD700D624C6 /* ProfileStaticTableViewCell.swift */,
+				2872AB6E1D661BD700D624C6 /* ProfileViewController.swift */,
+				2872AB6F1D661BD700D624C6 /* ResearchContainerSegue.swift */,
+				2872AB701D661BD700D624C6 /* ResearchContainerViewController.swift */,
+				2872AB711D661BD700D624C6 /* StudyTasks.swift */,
+				2872AB721D661BD700D624C6 /* WithdrawViewController.swift */,
 				2872AB301D661A3400D624C6 /* RKitBase */,
 				2872AB451D661A3500D624C6 /* RKitBaseTests */,
 				2872AB501D661A3500D624C6 /* RKitBaseUITests */,
 				2872AB2F1D661A3400D624C6 /* Products */,
+				F2F6739FC063BACB1FC5AD5C /* Pods */,
+				49BD3300EE3F03E92A1410F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +192,23 @@
 			path = RKitBaseUITests;
 			sourceTree = "<group>";
 		};
+		49BD3300EE3F03E92A1410F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2856A38F18E8BE294162EEB7 /* Pods_RKitBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F6739FC063BACB1FC5AD5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E90B5B78B0CBE46440B870E4 /* Pods-RKitBase.debug.xcconfig */,
+				B5D2449BB460068D2EC7AED7 /* Pods-RKitBase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2872AB561D661A3500D624C6 /* Build configuration list for PBXNativeTarget "RKitBase" */;
 			buildPhases = (
+				B98FA72A44F54D4BCB4310AC /* 📦 Check Pods Manifest.lock */,
 				2872AB2A1D661A3400D624C6 /* Sources */,
 				2872AB2B1D661A3400D624C6 /* Frameworks */,
 				2872AB2C1D661A3400D624C6 /* Resources */,
+				5535F0989C77DBFF3A5146F7 /* 📦 Embed Pods Frameworks */,
+				B4D5C3AC1E0F74D6E63C20A6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +338,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5535F0989C77DBFF3A5146F7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RKitBase/Pods-RKitBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D5C3AC1E0F74D6E63C20A6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RKitBase/Pods-RKitBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98FA72A44F54D4BCB4310AC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2872AB2A1D661A3400D624C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2872AB781D661BD700D624C6 /* HealthClientType.swift in Sources */,
+				2872AB741D661BD700D624C6 /* AnimatableChart.swift in Sources */,
+				2872AB791D661BD700D624C6 /* HealthDataStep.swift in Sources */,
+				2872AB811D661BD700D624C6 /* ProfileStaticTableViewCell.swift in Sources */,
+				2872AB771D661BD700D624C6 /* DiscreteGraphDataSource.swift in Sources */,
+				2872AB7C1D661BD700D624C6 /* IntroductionViewController.swift in Sources */,
+				2872AB821D661BD700D624C6 /* ProfileViewController.swift in Sources */,
+				2872AB831D661BD700D624C6 /* ResearchContainerSegue.swift in Sources */,
 				2872AB341D661A3400D624C6 /* ViewController.swift in Sources */,
+				2872AB731D661BD700D624C6 /* ActivityViewController.swift in Sources */,
+				2872AB801D661BD700D624C6 /* ProfileHeaderView.swift in Sources */,
+				2872AB7D1D661BD700D624C6 /* LineGraphDataSource.swift in Sources */,
+				2872AB7A1D661BD700D624C6 /* HealthDataStepViewController.swift in Sources */,
+				2872AB7B1D661BD700D624C6 /* HKHealthStore+Queries.swift in Sources */,
 				2872AB321D661A3400D624C6 /* AppDelegate.swift in Sources */,
+				2872AB7E1D661BD700D624C6 /* OnboardingViewController.swift in Sources */,
+				2872AB861D661BD700D624C6 /* WithdrawViewController.swift in Sources */,
+				2872AB851D661BD700D624C6 /* StudyTasks.swift in Sources */,
+				2872AB761D661BD700D624C6 /* DashboardTableViewController.swift in Sources */,
+				2872AB751D661BD700D624C6 /* ConsentDocument.swift in Sources */,
+				2872AB7F1D661BD700D624C6 /* PieChartDataSource.swift in Sources */,
+				2872AB841D661BD700D624C6 /* ResearchContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +554,7 @@
 		};
 		2872AB571D661A3500D624C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90B5B78B0CBE46440B870E4 /* Pods-RKitBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RKitBase/Info.plist;
@@ -410,6 +566,7 @@
 		};
 		2872AB581D661A3500D624C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D2449BB460068D2EC7AED7 /* Pods-RKitBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RKitBase/Info.plist;
@@ -484,6 +641,7 @@
 				2872AB581D661A3500D624C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2872AB591D661A3500D624C6 /* Build configuration list for PBXNativeTarget "RKitBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +650,7 @@
 				2872AB5B1D661A3500D624C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2872AB5C1D661A3500D624C6 /* Build configuration list for PBXNativeTarget "RKitBaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +659,7 @@
 				2872AB5E1D661A3500D624C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

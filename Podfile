@@ -3,8 +3,8 @@ platform :ios, '9.0'
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target ‘RKitBase’ do
-  pod 'sdl-rkx', :path => ‘0.1’
+target 'RKitBase' do
+  pod 'sdl-rkx', '~> 0.1’
   pod 'ResearchKit', '~> 1.3'
 end
 
