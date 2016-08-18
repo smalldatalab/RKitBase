@@ -35,15 +35,15 @@ class DashboardTableViewController: UITableViewController {
     // MARK: Properties
     
     @IBOutlet var pieChart: ORKPieChartView!
-    @IBOutlet var discreteGraph: ORKDiscreteGraphChartView!
+    @IBOutlet var descreteGraph: ORKDiscreteGraphChartView!
     @IBOutlet var lineGraph: ORKLineGraphChartView!
     
     var allCharts: [UIView] {
-        return [pieChart, discreteGraph, lineGraph]
+        return [pieChart, descreteGraph, lineGraph]
     }
     
     let pieChartDataSource = PieChartDataSource()
-    let discreteGraphDataSource = DiscreteGraphDataSource()
+    let descreteGraphDataSource = DiscreteGraphDataSource()
     let lineGraphDataSource = LineGraphDataSource()    
     
     // MARK: UIViewController
@@ -53,7 +53,7 @@ class DashboardTableViewController: UITableViewController {
         
         // Set the data source for each graph
         pieChart.dataSource = pieChartDataSource
-        discreteGraph.dataSource = discreteGraphDataSource
+        descreteGraph.dataSource = descreteGraphDataSource
         lineGraph.dataSource = lineGraphDataSource
         
         // Set the table view to automatically calculate the height of cells.

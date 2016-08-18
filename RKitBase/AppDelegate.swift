@@ -64,7 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func applicationDidEnterBackground(application: UIApplication) {
+    func applicationWillResignActive(application: UIApplication) {
         if ORKPasscodeViewController.isPasscodeStoredInKeychain() {
             // Hide content so it doesn't appear in the app switcher.
             containerViewController?.contentHidden = true

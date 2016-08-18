@@ -30,26 +30,26 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import ResearchKit
 
-class LineGraphDataSource: NSObject, ORKValueRangeGraphChartViewDataSource {
+class LineGraphDataSource: NSObject, ORKGraphChartViewDataSource {
     // MARK: Properties
     
     var plotPoints =
     [
         [
-            ORKValueRange(value: 10),
-            ORKValueRange(value: 20),
-            ORKValueRange(value: 25),
-            ORKValueRange(),
-            ORKValueRange(value: 30),
-            ORKValueRange(value: 40),
+            ORKRangedPoint(value: 10),
+            ORKRangedPoint(value: 20),
+            ORKRangedPoint(value: 25),
+            ORKRangedPoint(),
+            ORKRangedPoint(value: 30),
+            ORKRangedPoint(value: 40),
         ],
         [
-            ORKValueRange(value: 2),
-            ORKValueRange(value: 4),
-            ORKValueRange(value: 8),
-            ORKValueRange(value: 16),
-            ORKValueRange(value: 32),
-            ORKValueRange(value: 64),
+            ORKRangedPoint(value: 2),
+            ORKRangedPoint(value: 4),
+            ORKRangedPoint(value: 8),
+            ORKRangedPoint(value: 16),
+            ORKRangedPoint(value: 32),
+            ORKRangedPoint(value: 64),
         ]
     ]
     
@@ -59,19 +59,19 @@ class LineGraphDataSource: NSObject, ORKValueRangeGraphChartViewDataSource {
         return plotPoints.count
     }
     
-    func graphChartView(graphChartView: ORKGraphChartView, dataPointForPointIndex pointIndex: Int, plotIndex: Int) -> ORKValueRange {
+    func graphChartView(graphChartView: ORKGraphChartView, pointForPointIndex pointIndex: Int, plotIndex: Int) -> ORKRangedPoint {
         return plotPoints[plotIndex][pointIndex]
     }
     
-    func graphChartView(graphChartView: ORKGraphChartView, numberOfDataPointsForPlotIndex plotIndex: Int) -> Int {
+    func graphChartView(graphChartView: ORKGraphChartView, numberOfPointsForPlotIndex plotIndex: Int) -> Int {
         return plotPoints[plotIndex].count
     }
     
-    func maximumValueForGraphChartView(graphChartView: ORKGraphChartView) -> Double {
+    func maximumValueForGraphChartView(graphChartView: ORKGraphChartView) -> CGFloat {
         return 70
     }
     
-    func minimumValueForGraphChartView(graphChartView: ORKGraphChartView) -> Double {
+    func minimumValueForGraphChartView(graphChartView: ORKGraphChartView) -> CGFloat {
         return 0
     }
     

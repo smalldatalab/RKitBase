@@ -7,33 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2872AB321D661A3400D624C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB311D661A3400D624C6 /* AppDelegate.swift */; };
-		2872AB341D661A3400D624C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB331D661A3400D624C6 /* ViewController.swift */; };
-		2872AB371D661A3400D624C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2872AB351D661A3400D624C6 /* Main.storyboard */; };
-		2872AB391D661A3400D624C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2872AB381D661A3400D624C6 /* Assets.xcassets */; };
-		2872AB3C1D661A3400D624C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2872AB3A1D661A3400D624C6 /* LaunchScreen.storyboard */; };
 		2872AB471D661A3500D624C6 /* RKitBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB461D661A3500D624C6 /* RKitBaseTests.swift */; };
 		2872AB521D661A3500D624C6 /* RKitBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB511D661A3500D624C6 /* RKitBaseUITests.swift */; };
-		2872AB731D661BD700D624C6 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB5F1D661BD700D624C6 /* ActivityViewController.swift */; };
-		2872AB741D661BD700D624C6 /* AnimatableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB601D661BD700D624C6 /* AnimatableChart.swift */; };
-		2872AB751D661BD700D624C6 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB611D661BD700D624C6 /* ConsentDocument.swift */; };
-		2872AB761D661BD700D624C6 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB621D661BD700D624C6 /* DashboardTableViewController.swift */; };
-		2872AB771D661BD700D624C6 /* DiscreteGraphDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB631D661BD700D624C6 /* DiscreteGraphDataSource.swift */; };
-		2872AB781D661BD700D624C6 /* HealthClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB641D661BD700D624C6 /* HealthClientType.swift */; };
-		2872AB791D661BD700D624C6 /* HealthDataStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB651D661BD700D624C6 /* HealthDataStep.swift */; };
-		2872AB7A1D661BD700D624C6 /* HealthDataStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB661D661BD700D624C6 /* HealthDataStepViewController.swift */; };
-		2872AB7B1D661BD700D624C6 /* HKHealthStore+Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB671D661BD700D624C6 /* HKHealthStore+Queries.swift */; };
-		2872AB7C1D661BD700D624C6 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB681D661BD700D624C6 /* IntroductionViewController.swift */; };
-		2872AB7D1D661BD700D624C6 /* LineGraphDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB691D661BD700D624C6 /* LineGraphDataSource.swift */; };
-		2872AB7E1D661BD700D624C6 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6A1D661BD700D624C6 /* OnboardingViewController.swift */; };
-		2872AB7F1D661BD700D624C6 /* PieChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6B1D661BD700D624C6 /* PieChartDataSource.swift */; };
-		2872AB801D661BD700D624C6 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6C1D661BD700D624C6 /* ProfileHeaderView.swift */; };
-		2872AB811D661BD700D624C6 /* ProfileStaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6D1D661BD700D624C6 /* ProfileStaticTableViewCell.swift */; };
-		2872AB821D661BD700D624C6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6E1D661BD700D624C6 /* ProfileViewController.swift */; };
-		2872AB831D661BD700D624C6 /* ResearchContainerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB6F1D661BD700D624C6 /* ResearchContainerSegue.swift */; };
-		2872AB841D661BD700D624C6 /* ResearchContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB701D661BD700D624C6 /* ResearchContainerViewController.swift */; };
-		2872AB851D661BD700D624C6 /* StudyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB711D661BD700D624C6 /* StudyTasks.swift */; };
-		2872AB861D661BD700D624C6 /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872AB721D661BD700D624C6 /* WithdrawViewController.swift */; };
+		28DC4E751D6679220087AF36 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 28DC4E5D1D6679220087AF36 /* Base.lproj */; };
+		28DC4E761D6679220087AF36 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E5E1D6679220087AF36 /* ActivityViewController.swift */; };
+		28DC4E771D6679220087AF36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E5F1D6679220087AF36 /* AppDelegate.swift */; };
+		28DC4E781D6679220087AF36 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E601D6679220087AF36 /* DashboardTableViewController.swift */; };
+		28DC4E791D6679220087AF36 /* DiscreteGraphDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E611D6679220087AF36 /* DiscreteGraphDataSource.swift */; };
+		28DC4E7A1D6679220087AF36 /* HealthDataStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E621D6679220087AF36 /* HealthDataStepViewController.swift */; };
+		28DC4E7B1D6679220087AF36 /* LineGraphDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E631D6679220087AF36 /* LineGraphDataSource.swift */; };
+		28DC4E7C1D6679220087AF36 /* AnimatableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E641D6679220087AF36 /* AnimatableChart.swift */; };
+		28DC4E7D1D6679220087AF36 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E651D6679220087AF36 /* ConsentDocument.swift */; };
+		28DC4E7E1D6679220087AF36 /* HealthClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E661D6679220087AF36 /* HealthClientType.swift */; };
+		28DC4E7F1D6679220087AF36 /* HealthDataStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E671D6679220087AF36 /* HealthDataStep.swift */; };
+		28DC4E801D6679220087AF36 /* HKHealthStore+Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E681D6679220087AF36 /* HKHealthStore+Queries.swift */; };
+		28DC4E811D6679220087AF36 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28DC4E691D6679220087AF36 /* Info.plist */; };
+		28DC4E821D6679220087AF36 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E6A1D6679220087AF36 /* IntroductionViewController.swift */; };
+		28DC4E831D6679220087AF36 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E6B1D6679220087AF36 /* OnboardingViewController.swift */; };
+		28DC4E841D6679220087AF36 /* PieChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E6C1D6679220087AF36 /* PieChartDataSource.swift */; };
+		28DC4E851D6679220087AF36 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E6D1D6679220087AF36 /* ProfileHeaderView.swift */; };
+		28DC4E861D6679220087AF36 /* ProfileStaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E6E1D6679220087AF36 /* ProfileStaticTableViewCell.swift */; };
+		28DC4E871D6679220087AF36 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E6F1D6679220087AF36 /* ProfileViewController.swift */; };
+		28DC4E881D6679220087AF36 /* ResearchContainerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E701D6679220087AF36 /* ResearchContainerSegue.swift */; };
+		28DC4E891D6679220087AF36 /* ResearchContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E711D6679220087AF36 /* ResearchContainerViewController.swift */; };
+		28DC4E8A1D6679220087AF36 /* StudyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E721D6679220087AF36 /* StudyTasks.swift */; };
+		28DC4E8B1D6679220087AF36 /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DC4E731D6679220087AF36 /* WithdrawViewController.swift */; };
+		28DC4E8C1D6679220087AF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DC4E741D6679220087AF36 /* Assets.xcassets */; };
 		FF729420507D3069F610CF67 /* Pods_RKitBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2856A38F18E8BE294162EEB7 /* Pods_RKitBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,38 +56,37 @@
 /* Begin PBXFileReference section */
 		2856A38F18E8BE294162EEB7 /* Pods_RKitBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKitBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872AB2E1D661A3400D624C6 /* RKitBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKitBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2872AB311D661A3400D624C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2872AB331D661A3400D624C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2872AB361D661A3400D624C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2872AB381D661A3400D624C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2872AB3B1D661A3400D624C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2872AB3D1D661A3500D624C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2872AB421D661A3500D624C6 /* RKitBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKitBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872AB461D661A3500D624C6 /* RKitBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKitBaseTests.swift; sourceTree = "<group>"; };
 		2872AB481D661A3500D624C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2872AB4D1D661A3500D624C6 /* RKitBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKitBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872AB511D661A3500D624C6 /* RKitBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKitBaseUITests.swift; sourceTree = "<group>"; };
 		2872AB531D661A3500D624C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2872AB5F1D661BD700D624C6 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityViewController.swift; path = RKitBase/ActivityViewController.swift; sourceTree = "<group>"; };
-		2872AB601D661BD700D624C6 /* AnimatableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatableChart.swift; path = RKitBase/AnimatableChart.swift; sourceTree = "<group>"; };
-		2872AB611D661BD700D624C6 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsentDocument.swift; path = RKitBase/ConsentDocument.swift; sourceTree = "<group>"; };
-		2872AB621D661BD700D624C6 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardTableViewController.swift; path = RKitBase/DashboardTableViewController.swift; sourceTree = "<group>"; };
-		2872AB631D661BD700D624C6 /* DiscreteGraphDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscreteGraphDataSource.swift; path = RKitBase/DiscreteGraphDataSource.swift; sourceTree = "<group>"; };
-		2872AB641D661BD700D624C6 /* HealthClientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthClientType.swift; path = RKitBase/HealthClientType.swift; sourceTree = "<group>"; };
-		2872AB651D661BD700D624C6 /* HealthDataStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthDataStep.swift; path = RKitBase/HealthDataStep.swift; sourceTree = "<group>"; };
-		2872AB661D661BD700D624C6 /* HealthDataStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthDataStepViewController.swift; path = RKitBase/HealthDataStepViewController.swift; sourceTree = "<group>"; };
-		2872AB671D661BD700D624C6 /* HKHealthStore+Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HKHealthStore+Queries.swift"; path = "RKitBase/HKHealthStore+Queries.swift"; sourceTree = "<group>"; };
-		2872AB681D661BD700D624C6 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroductionViewController.swift; path = RKitBase/IntroductionViewController.swift; sourceTree = "<group>"; };
-		2872AB691D661BD700D624C6 /* LineGraphDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineGraphDataSource.swift; path = RKitBase/LineGraphDataSource.swift; sourceTree = "<group>"; };
-		2872AB6A1D661BD700D624C6 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingViewController.swift; path = RKitBase/OnboardingViewController.swift; sourceTree = "<group>"; };
-		2872AB6B1D661BD700D624C6 /* PieChartDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartDataSource.swift; path = RKitBase/PieChartDataSource.swift; sourceTree = "<group>"; };
-		2872AB6C1D661BD700D624C6 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileHeaderView.swift; path = RKitBase/ProfileHeaderView.swift; sourceTree = "<group>"; };
-		2872AB6D1D661BD700D624C6 /* ProfileStaticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileStaticTableViewCell.swift; path = RKitBase/ProfileStaticTableViewCell.swift; sourceTree = "<group>"; };
-		2872AB6E1D661BD700D624C6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = RKitBase/ProfileViewController.swift; sourceTree = "<group>"; };
-		2872AB6F1D661BD700D624C6 /* ResearchContainerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchContainerSegue.swift; path = RKitBase/ResearchContainerSegue.swift; sourceTree = "<group>"; };
-		2872AB701D661BD700D624C6 /* ResearchContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResearchContainerViewController.swift; path = RKitBase/ResearchContainerViewController.swift; sourceTree = "<group>"; };
-		2872AB711D661BD700D624C6 /* StudyTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudyTasks.swift; path = RKitBase/StudyTasks.swift; sourceTree = "<group>"; };
-		2872AB721D661BD700D624C6 /* WithdrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WithdrawViewController.swift; path = RKitBase/WithdrawViewController.swift; sourceTree = "<group>"; };
+		28DC4E5C1D66791F0087AF36 /* RKitBase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RKitBase-Bridging-Header.h"; sourceTree = "<group>"; };
+		28DC4E5D1D6679220087AF36 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		28DC4E5E1D6679220087AF36 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		28DC4E5F1D6679220087AF36 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28DC4E601D6679220087AF36 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
+		28DC4E611D6679220087AF36 /* DiscreteGraphDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscreteGraphDataSource.swift; sourceTree = "<group>"; };
+		28DC4E621D6679220087AF36 /* HealthDataStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataStepViewController.swift; sourceTree = "<group>"; };
+		28DC4E631D6679220087AF36 /* LineGraphDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraphDataSource.swift; sourceTree = "<group>"; };
+		28DC4E641D6679220087AF36 /* AnimatableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableChart.swift; sourceTree = "<group>"; };
+		28DC4E651D6679220087AF36 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		28DC4E661D6679220087AF36 /* HealthClientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthClientType.swift; sourceTree = "<group>"; };
+		28DC4E671D6679220087AF36 /* HealthDataStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataStep.swift; sourceTree = "<group>"; };
+		28DC4E681D6679220087AF36 /* HKHealthStore+Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKHealthStore+Queries.swift"; sourceTree = "<group>"; };
+		28DC4E691D6679220087AF36 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DC4E6A1D6679220087AF36 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		28DC4E6B1D6679220087AF36 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		28DC4E6C1D6679220087AF36 /* PieChartDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartDataSource.swift; sourceTree = "<group>"; };
+		28DC4E6D1D6679220087AF36 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		28DC4E6E1D6679220087AF36 /* ProfileStaticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStaticTableViewCell.swift; sourceTree = "<group>"; };
+		28DC4E6F1D6679220087AF36 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		28DC4E701D6679220087AF36 /* ResearchContainerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResearchContainerSegue.swift; sourceTree = "<group>"; };
+		28DC4E711D6679220087AF36 /* ResearchContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResearchContainerViewController.swift; sourceTree = "<group>"; };
+		28DC4E721D6679220087AF36 /* StudyTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyTasks.swift; sourceTree = "<group>"; };
+		28DC4E731D6679220087AF36 /* WithdrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
+		28DC4E741D6679220087AF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D2449BB460068D2EC7AED7 /* Pods-RKitBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RKitBase/Pods-RKitBase.release.xcconfig"; sourceTree = "<group>"; };
 		E90B5B78B0CBE46440B870E4 /* Pods-RKitBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKitBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RKitBase/Pods-RKitBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,26 +120,6 @@
 		2872AB251D661A3400D624C6 = {
 			isa = PBXGroup;
 			children = (
-				2872AB5F1D661BD700D624C6 /* ActivityViewController.swift */,
-				2872AB601D661BD700D624C6 /* AnimatableChart.swift */,
-				2872AB611D661BD700D624C6 /* ConsentDocument.swift */,
-				2872AB621D661BD700D624C6 /* DashboardTableViewController.swift */,
-				2872AB631D661BD700D624C6 /* DiscreteGraphDataSource.swift */,
-				2872AB641D661BD700D624C6 /* HealthClientType.swift */,
-				2872AB651D661BD700D624C6 /* HealthDataStep.swift */,
-				2872AB661D661BD700D624C6 /* HealthDataStepViewController.swift */,
-				2872AB671D661BD700D624C6 /* HKHealthStore+Queries.swift */,
-				2872AB681D661BD700D624C6 /* IntroductionViewController.swift */,
-				2872AB691D661BD700D624C6 /* LineGraphDataSource.swift */,
-				2872AB6A1D661BD700D624C6 /* OnboardingViewController.swift */,
-				2872AB6B1D661BD700D624C6 /* PieChartDataSource.swift */,
-				2872AB6C1D661BD700D624C6 /* ProfileHeaderView.swift */,
-				2872AB6D1D661BD700D624C6 /* ProfileStaticTableViewCell.swift */,
-				2872AB6E1D661BD700D624C6 /* ProfileViewController.swift */,
-				2872AB6F1D661BD700D624C6 /* ResearchContainerSegue.swift */,
-				2872AB701D661BD700D624C6 /* ResearchContainerViewController.swift */,
-				2872AB711D661BD700D624C6 /* StudyTasks.swift */,
-				2872AB721D661BD700D624C6 /* WithdrawViewController.swift */,
 				2872AB301D661A3400D624C6 /* RKitBase */,
 				2872AB451D661A3500D624C6 /* RKitBaseTests */,
 				2872AB501D661A3500D624C6 /* RKitBaseUITests */,
@@ -164,12 +142,31 @@
 		2872AB301D661A3400D624C6 /* RKitBase */ = {
 			isa = PBXGroup;
 			children = (
-				2872AB311D661A3400D624C6 /* AppDelegate.swift */,
-				2872AB331D661A3400D624C6 /* ViewController.swift */,
-				2872AB351D661A3400D624C6 /* Main.storyboard */,
-				2872AB381D661A3400D624C6 /* Assets.xcassets */,
-				2872AB3A1D661A3400D624C6 /* LaunchScreen.storyboard */,
-				2872AB3D1D661A3500D624C6 /* Info.plist */,
+				28DC4E5D1D6679220087AF36 /* Base.lproj */,
+				28DC4E5E1D6679220087AF36 /* ActivityViewController.swift */,
+				28DC4E5F1D6679220087AF36 /* AppDelegate.swift */,
+				28DC4E601D6679220087AF36 /* DashboardTableViewController.swift */,
+				28DC4E611D6679220087AF36 /* DiscreteGraphDataSource.swift */,
+				28DC4E621D6679220087AF36 /* HealthDataStepViewController.swift */,
+				28DC4E631D6679220087AF36 /* LineGraphDataSource.swift */,
+				28DC4E641D6679220087AF36 /* AnimatableChart.swift */,
+				28DC4E651D6679220087AF36 /* ConsentDocument.swift */,
+				28DC4E661D6679220087AF36 /* HealthClientType.swift */,
+				28DC4E671D6679220087AF36 /* HealthDataStep.swift */,
+				28DC4E681D6679220087AF36 /* HKHealthStore+Queries.swift */,
+				28DC4E691D6679220087AF36 /* Info.plist */,
+				28DC4E6A1D6679220087AF36 /* IntroductionViewController.swift */,
+				28DC4E6B1D6679220087AF36 /* OnboardingViewController.swift */,
+				28DC4E6C1D6679220087AF36 /* PieChartDataSource.swift */,
+				28DC4E6D1D6679220087AF36 /* ProfileHeaderView.swift */,
+				28DC4E6E1D6679220087AF36 /* ProfileStaticTableViewCell.swift */,
+				28DC4E6F1D6679220087AF36 /* ProfileViewController.swift */,
+				28DC4E701D6679220087AF36 /* ResearchContainerSegue.swift */,
+				28DC4E711D6679220087AF36 /* ResearchContainerViewController.swift */,
+				28DC4E721D6679220087AF36 /* StudyTasks.swift */,
+				28DC4E731D6679220087AF36 /* WithdrawViewController.swift */,
+				28DC4E741D6679220087AF36 /* Assets.xcassets */,
+				28DC4E5C1D66791F0087AF36 /* RKitBase-Bridging-Header.h */,
 			);
 			path = RKitBase;
 			sourceTree = "<group>";
@@ -316,9 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2872AB3C1D661A3400D624C6 /* LaunchScreen.storyboard in Resources */,
-				2872AB391D661A3400D624C6 /* Assets.xcassets in Resources */,
-				2872AB371D661A3400D624C6 /* Main.storyboard in Resources */,
+				28DC4E811D6679220087AF36 /* Info.plist in Resources */,
+				28DC4E8C1D6679220087AF36 /* Assets.xcassets in Resources */,
+				28DC4E751D6679220087AF36 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,28 +388,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2872AB781D661BD700D624C6 /* HealthClientType.swift in Sources */,
-				2872AB741D661BD700D624C6 /* AnimatableChart.swift in Sources */,
-				2872AB791D661BD700D624C6 /* HealthDataStep.swift in Sources */,
-				2872AB811D661BD700D624C6 /* ProfileStaticTableViewCell.swift in Sources */,
-				2872AB771D661BD700D624C6 /* DiscreteGraphDataSource.swift in Sources */,
-				2872AB7C1D661BD700D624C6 /* IntroductionViewController.swift in Sources */,
-				2872AB821D661BD700D624C6 /* ProfileViewController.swift in Sources */,
-				2872AB831D661BD700D624C6 /* ResearchContainerSegue.swift in Sources */,
-				2872AB341D661A3400D624C6 /* ViewController.swift in Sources */,
-				2872AB731D661BD700D624C6 /* ActivityViewController.swift in Sources */,
-				2872AB801D661BD700D624C6 /* ProfileHeaderView.swift in Sources */,
-				2872AB7D1D661BD700D624C6 /* LineGraphDataSource.swift in Sources */,
-				2872AB7A1D661BD700D624C6 /* HealthDataStepViewController.swift in Sources */,
-				2872AB7B1D661BD700D624C6 /* HKHealthStore+Queries.swift in Sources */,
-				2872AB321D661A3400D624C6 /* AppDelegate.swift in Sources */,
-				2872AB7E1D661BD700D624C6 /* OnboardingViewController.swift in Sources */,
-				2872AB861D661BD700D624C6 /* WithdrawViewController.swift in Sources */,
-				2872AB851D661BD700D624C6 /* StudyTasks.swift in Sources */,
-				2872AB761D661BD700D624C6 /* DashboardTableViewController.swift in Sources */,
-				2872AB751D661BD700D624C6 /* ConsentDocument.swift in Sources */,
-				2872AB7F1D661BD700D624C6 /* PieChartDataSource.swift in Sources */,
-				2872AB841D661BD700D624C6 /* ResearchContainerViewController.swift in Sources */,
+				28DC4E881D6679220087AF36 /* ResearchContainerSegue.swift in Sources */,
+				28DC4E831D6679220087AF36 /* OnboardingViewController.swift in Sources */,
+				28DC4E8A1D6679220087AF36 /* StudyTasks.swift in Sources */,
+				28DC4E7E1D6679220087AF36 /* HealthClientType.swift in Sources */,
+				28DC4E7F1D6679220087AF36 /* HealthDataStep.swift in Sources */,
+				28DC4E791D6679220087AF36 /* DiscreteGraphDataSource.swift in Sources */,
+				28DC4E7D1D6679220087AF36 /* ConsentDocument.swift in Sources */,
+				28DC4E821D6679220087AF36 /* IntroductionViewController.swift in Sources */,
+				28DC4E7B1D6679220087AF36 /* LineGraphDataSource.swift in Sources */,
+				28DC4E871D6679220087AF36 /* ProfileViewController.swift in Sources */,
+				28DC4E851D6679220087AF36 /* ProfileHeaderView.swift in Sources */,
+				28DC4E891D6679220087AF36 /* ResearchContainerViewController.swift in Sources */,
+				28DC4E7A1D6679220087AF36 /* HealthDataStepViewController.swift in Sources */,
+				28DC4E7C1D6679220087AF36 /* AnimatableChart.swift in Sources */,
+				28DC4E801D6679220087AF36 /* HKHealthStore+Queries.swift in Sources */,
+				28DC4E841D6679220087AF36 /* PieChartDataSource.swift in Sources */,
+				28DC4E8B1D6679220087AF36 /* WithdrawViewController.swift in Sources */,
+				28DC4E771D6679220087AF36 /* AppDelegate.swift in Sources */,
+				28DC4E781D6679220087AF36 /* DashboardTableViewController.swift in Sources */,
+				28DC4E861D6679220087AF36 /* ProfileStaticTableViewCell.swift in Sources */,
+				28DC4E761D6679220087AF36 /* ActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,25 +442,6 @@
 			targetProxy = 2872AB4E1D661A3500D624C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2872AB351D661A3400D624C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2872AB361D661A3400D624C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2872AB3A1D661A3400D624C6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2872AB3B1D661A3400D624C6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2872AB541D661A3500D624C6 /* Debug */ = {
@@ -557,10 +534,13 @@
 			baseConfigurationReference = E90B5B78B0CBE46440B870E4 /* Pods-RKitBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RKitBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smalldatalab.RKitBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RKitBase/RKitBase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -569,10 +549,12 @@
 			baseConfigurationReference = B5D2449BB460068D2EC7AED7 /* Pods-RKitBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = RKitBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smalldatalab.RKitBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RKitBase/RKitBase-Bridging-Header.h";
 			};
 			name = Release;
 		};
